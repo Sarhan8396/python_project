@@ -4,6 +4,7 @@ oper = ['+', '-', '*', '/']
 while True:
     try:
         name = input("Введите имя: ")
+        print(f"Привет, {name}!")
         operator = input("Выбери оператор: ('+' ,'-' ,'*', '/')  ")
         if operator not in oper:
             print("Неверный оператор: Введите оператор! ('+' ,'-' ,'*', '/')")
@@ -34,3 +35,4 @@ while True:
     answer = input("Хотите продолжить?: (да/нет) ")
     if answer == 'нет':
         break
+
